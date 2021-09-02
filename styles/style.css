@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "AveriaSerif-BoldItalic";
+  src: URL("./fonts/AveriaSerif-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AveriaSerif-Italic";
+  src: URL("./fonts/AveriaSerif-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AveriaSerif-LightItalic";
+  src: URL("./fonts/AveriaSerif-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: URL("./fonts/Helvetica.ttc") format("truetype");
+}
