@@ -1,3 +1,4 @@
+/* font family */
 @font-face {
   font-family: "AveriaSerif-BoldItalic";
   src: URL("./fonts/AveriaSerif-BoldItalic.ttf") format("truetype");
@@ -16,8 +17,25 @@
 }
 
 /* style reset */
-
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica";
+}
+
+/* Header Styles */
+.top__bar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f8d2b8;
+  color: gray;
+  font-family: "Helvetica-light";
+  font-weight: 200;
+}
+.top__bar > h4 {
+  font-family: "Helvetica-light";
+  font-weight: 200;
+  padding: 0.8rem;
 }
