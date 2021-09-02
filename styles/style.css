@@ -51,6 +51,7 @@ li {
   display: flex;
   justify-content: flex-end;
   text-align: center;
+  font-family: "Helvetica-light";
 }
 .account__items {
   display: flex;
@@ -110,6 +111,7 @@ button[type="submit"] {
   align-items: center;
   text-align: center;
   padding: 1rem;
+  font-family: "Helvetica";
 }
 
 .nav__items {
@@ -142,6 +144,7 @@ button[type="submit"] {
   border: none;
   border: 0px;
   outline: 0px;
+  font-family: "Helvetica";
 }
 
 /* Main */
@@ -215,7 +218,7 @@ button[type="submit"] {
 }
 
 #intro__section {
-  margin: 4rem 0;
+  margin: 1rem 0;
 }
 
 /* Image banner */
@@ -232,7 +235,7 @@ button[type="submit"] {
   display: flex;
   justify-content: center;
   height: auto;
-  margin-top: 4rem;
+  margin: 4rem 0 4rem 0;
 }
 
 .ingredients__heading h3 {
@@ -262,9 +265,35 @@ button[type="submit"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem;
+  margin-bottom: 4rem;
 }
 
 .ingredients__text {
   padding: 2rem 0 2rem 0;
+}
+
+/* Featured Collection */
+.featured__section {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.featured__product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: transform 0.4s;
+  padding: 1rem;
+}
+
+.featured__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured__product:hover {
+  transform: scale(1.1);
 }
