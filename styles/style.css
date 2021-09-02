@@ -247,6 +247,7 @@ button[type="submit"] {
   color: gray;
   width: 500px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .ingredients__list {
@@ -296,4 +297,44 @@ button[type="submit"] {
 }
 .featured__product:hover {
   transform: scale(1.1);
+}
+
+/* Vitamin */
+
+.vitamin__section h2 {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 0 2rem 0;
+  font-size: 1.5rem;
+  font-family: "AveriaSerif-Bold";
+  font-weight: 900;
+}
+
+.vitamin__heading {
+  display: flex;
+  font-family: AveriaSerif-LightItalic;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 8rem;
+  color: gray;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vitamin__column {
+  display: flex;
+  justify-content: center;
+}
+
+.vitamin__description {
+  padding: 2rem;
+  width: 300px;
+}
+.vitamin__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  text-align: center;
 }
