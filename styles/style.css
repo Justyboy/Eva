@@ -237,7 +237,9 @@ button[type="submit"] {
   height: auto;
   margin: 4rem 0 4rem 0;
 }
-
+.ingredients__text {
+  font-family: AveriaSerif-LightItalic;
+}
 .ingredients__heading h3 {
   display: flex;
   font-family: AveriaSerif-LightItalic;
@@ -262,14 +264,14 @@ button[type="submit"] {
   padding: 0 1rem;
 }
 
-.ingredients__section {
+.img__section {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 4rem;
 }
 
-.ingredients__text {
+.img__text {
   padding: 2rem 0 2rem 0;
 }
 
@@ -326,15 +328,52 @@ button[type="submit"] {
   display: flex;
   justify-content: center;
 }
+.img__text {
+  font-family: AveriaSerif-LightItalic;
+}
 
 .vitamin__description {
   padding: 2rem;
   width: 300px;
 }
-.vitamin__section {
+.img__section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
   text-align: center;
+}
+
+/* Capillary Treament section */
+
+.capilo__section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.capilo__heading {
+  display: flex;
+  font-family: AveriaSerif-LightItalic;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 8rem;
+  color: gray;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.capilo__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  flex-direction: column;
+  font-family: AveriaSerif-LightItalic;
+}
+
+.capilo__column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
