@@ -14,3 +14,10 @@
   font-family: "Helvetica";
   src: URL("./fonts/Helvetica.ttc") format("truetype");
 }
+
+/* style reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
