@@ -66,6 +66,9 @@ li {
   font-size: 14px;
 }
 
+.account__items li a:hover {
+  color: gray;
+}
 /* Search bar */
 
 .search__bar {
@@ -223,10 +226,10 @@ button[type="submit"] {
 
 /* Image banner */
 
-.banner__img {
-  object-fit: contain;
-  width: 100%;
+.banner__img img {
   height: auto;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Ingredients section */
@@ -239,17 +242,6 @@ button[type="submit"] {
 }
 .ingredients__text {
   font-family: AveriaSerif-LightItalic;
-}
-.ingredients__heading h3 {
-  display: flex;
-  font-family: AveriaSerif-LightItalic;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 8rem;
-  color: gray;
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .ingredients__list {
@@ -270,11 +262,16 @@ button[type="submit"] {
   align-items: center;
   margin-bottom: 4rem;
 }
+.img__section img {
+  transition: transform 0.4s ease-in-out;
+}
 
 .img__text {
   padding: 2rem 0 2rem 0;
 }
-
+.img__section img:hover {
+  transform: scale(1.3);
+}
 /* Featured Collection */
 .featured__section {
   margin-top: 1.5rem;
@@ -301,6 +298,16 @@ button[type="submit"] {
   transform: scale(1.1);
 }
 
+.featured__text {
+  font-family: AveriaSerif-LightItalic;
+}
+
+.featured__title {
+  font-family: AveriaSerif-BoldItalic;
+}
+.featured__price {
+  font-family: AveriaSerif-Italic;
+}
 /* Vitamin */
 
 .vitamin__section h2 {
@@ -310,18 +317,6 @@ button[type="submit"] {
   font-size: 1.5rem;
   font-family: "AveriaSerif-Bold";
   font-weight: 900;
-}
-
-.vitamin__heading {
-  display: flex;
-  font-family: AveriaSerif-LightItalic;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 8rem;
-  color: gray;
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .vitamin__column {
@@ -352,7 +347,7 @@ button[type="submit"] {
   flex-direction: column;
   text-align: center;
 }
-.capilo__heading {
+.section__heading {
   display: flex;
   font-family: AveriaSerif-LightItalic;
   align-items: center;
@@ -376,4 +371,25 @@ button[type="submit"] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.sale {
+  text-decoration: line-through;
+  color: gray;
+}
+/* Hydra Treament section */
+
+.hydra__section {
+  font-family: AveriaSerif-LightItalic;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  margin: 4rem;
+}
+.hydra__description {
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  margin: 2rem auto;
 }
