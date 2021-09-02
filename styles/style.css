@@ -168,6 +168,7 @@ button[type="submit"] {
 .main__icons {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 /* Introductions */
@@ -176,7 +177,7 @@ button[type="submit"] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 .intro__section h1 {
   font-family: Helvetica;
@@ -197,6 +198,7 @@ button[type="submit"] {
 
 .intro__center {
   font-family: AveriaSerif-BoldItalic;
+  padding: 0.5rem;
 }
 
 .intro__text {
@@ -209,7 +211,7 @@ button[type="submit"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 4rem auto;
 }
 
 #intro__section {
@@ -219,5 +221,50 @@ button[type="submit"] {
 /* Image banner */
 
 .banner__img {
-  min-width: 100%;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+/* Ingredients section */
+
+.ingredients__img {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: 4rem;
+}
+
+.ingredients__heading h3 {
+  display: flex;
+  font-family: AveriaSerif-LightItalic;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 8rem;
+  color: gray;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.ingredients__list {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: center;
+}
+.ingredients__list li {
+  font-family: AveriaSerif-LightItalic;
+  display: flex;
+  padding: 0 1rem;
+}
+
+.ingredients__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.ingredients__text {
+  padding: 2rem 0 2rem 0;
 }
