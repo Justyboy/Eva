@@ -393,3 +393,80 @@ button[type="submit"] {
   width: 600px;
   margin: 2rem auto;
 }
+
+/* Bottom banner */
+
+.bottom__heading {
+  background-color: #a4706b;
+  margin-bottom: 2rem;
+}
+
+.bottom__heading li {
+  color: rgb(202, 192, 192);
+  display: flex;
+  justify-content: center;
+  padding: 1.8rem;
+  font-size: 1.2rem;
+  font-family: AveriaSerif-LightItalic;
+}
+.bottom__heading ul li a {
+  color: rgb(202, 192, 192);
+  text-decoration: underline;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+}
+.bottom__heading ul li a:hover {
+  color: white;
+}
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: AveriaSerif-Light;
+  border-top: 2px solid whitesmoke;
+  padding: 2rem;
+}
+
+.footer__first {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+}
+.footer__first ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+}
+.footer__title {
+  padding-bottom: 1rem;
+  width: 200px;
+}
+.footer__second {
+  padding-right: 4rem;
+}
+
+.footer__fourth {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+form {
+  display: flex;
+}
+
+.footer__fourth button[type="submit"] {
+  font-size: 14px;
+  background-color: #a4706b;
+  color: white;
+  padding: 1rem;
+}
+
+/* copyright */
+
+.copyright {
+  font-family: AveriaSerif-LightItalic;
+  padding: 2rem;
+  border-bottom: 2px solid whitesmoke;
+}
