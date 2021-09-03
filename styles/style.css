@@ -496,6 +496,12 @@ form {
 
 /* Media queries */
 @media only screen and (max-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .search__bar input[type="text"] {
     display: none;
   }
